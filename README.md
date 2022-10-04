@@ -12,6 +12,8 @@
 
 ### Queue
 
+### Hash Table
+
 ### Tree
 
 ### Graph
@@ -22,13 +24,21 @@
 
 ### Sorting Algorithms
 
+A **stable sorting algorithm** is one in which the relative order of elements is maintained if the two elements have the same sort value.
+
+An **in-place sorting algorithm** is one in which the algorithm does not use any additional data structures to hold temporary data.
+
+#### Bubble Sort
+
+#### Insertion Sort
+
+#### Selection Sort
+
+#### Merge Sort
+
+#### Quick Sort
+
 ## C#
-
-## Javascript
-
-## Python
-
-## Rust
 
 ## DevOps
 
@@ -84,9 +94,11 @@
 
 [Grind75](https://www.techinterviewhandbook.org/grind75)
 
-[AlgoMonster](https://algo.monster/dashboard)
+[AlgoMonster (Paid)](https://algo.monster/dashboard)
 
-[interviewing.io](https://interviewing.io/)
+[AlgoExpert (Paid)](https://www.algoexpert.io/)
+
+[interviewing.io (Paid)](https://interviewing.io/)
 
 [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 
