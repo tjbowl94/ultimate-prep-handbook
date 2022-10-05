@@ -33,3 +33,36 @@ Output: true
 
 ## Solutions
 
+### Solution 1: Hash Set - O(n)
+
+This problem is a perfect fit for a hash set. 
+
+Iterate through the array. 
+
+For each element, check if it already exists in the set. 
+- if it does, there's a duplicate 
+- if it doesn't, add it to the set and move on
+
+Return false after exiting the loop.
+
+```
+public class Solution 
+{
+    public bool ContainsDuplicate(int[] nums) 
+    {
+        var hashSet = new HashSet<int>(nums.Length);
+        
+        for (var i = 0; i < nums.Length; i++)
+        {
+            if (hashSet.Contains(nums[i]))
+            {
+                return true;
+            }
+
+            hashSet.Add(nums[i]);
+        }
+
+        return false;
+    }
+}
+```
