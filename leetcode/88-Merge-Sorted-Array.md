@@ -46,3 +46,47 @@ nums2.length == n
 ```
 
 ## Solutions
+
+### Solution 1: Two Pointers - O(m + n)
+
+This solution is basically just the same strategy as the "merge" part of "merge sort", with the added complication that we are manipulating one of the arrays directly rather than a third array.
+
+We can solve that first complication by simply copying the existing array into another one, and then using the original array as our working array.
+
+We then initialize a few pointers. One for each of the two arrays we're copying from, and one for the array we're copying into. We compare the elements at each of the two pointers, copy over the lower element, and then increment the pointer from the array we copied from. We also increment the pointer that's associated with the array we're copying to.
+
+Finally, because our loop condition exits based on EITHER of the two pointers reaching the end of its respective array. This means that once we exit the loop, we still have to copy over any remaining elements from one of the source arrays.
+
+```
+public class Solution 
+{
+    public void Merge(int[] nums1, int m, int[] nums2, int n) 
+    {
+        var nums1Copy = new int[m];
+
+        Array.Copy(nums1, nums1Copy, m);
+
+        var i = 0;
+        var j = 0;
+        var k = 0;
+
+        while (i < m && j < n)
+        {
+            if (nums1Copy[i] < nums2[j])
+            {
+                nums1[k] = nums1Copy[i];
+                i++;
+            }
+            else
+            {
+                nums1[k] = nums2[j];
+                j++;
+            }
+            k++;
+        }
+
+        Array.Copy(nums1Copy, i, nums1, k, m - i);
+        Array.Copy(nums2, j, nums1, k, n - j);
+    }
+}
+```
