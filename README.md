@@ -62,8 +62,6 @@ An **in-place sorting algorithm** is one in which the algorithm does not use any
 
 ### AWS
 
-### Azure
-
 ## Project Ideas
 
 |Idea|Notes|Technologies|Status|
