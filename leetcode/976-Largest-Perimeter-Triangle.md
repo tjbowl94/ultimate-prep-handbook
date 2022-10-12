@@ -1,7 +1,7 @@
 # 976. Largest Perimeter Triangle
 
 ## Link
-https://leetcode.com/problems/largest-perimeter-triangle/description/
+https://leetcode.com/problems/largest-perimeter-triangle/
 
 ## Description
 

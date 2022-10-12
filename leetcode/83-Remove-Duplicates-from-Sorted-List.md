@@ -1,7 +1,7 @@
 # 83. Relove Duplicates from Sorted List
 
 ## Link
-https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
 ## Description
 

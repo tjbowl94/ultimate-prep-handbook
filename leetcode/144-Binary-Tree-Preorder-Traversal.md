@@ -1,7 +1,7 @@
 # 144. Binary Tree Preorder Traversal
 
 ## Link
-https://leetcode.com/problems/binary-tree-preorder-traversal/description/
+https://leetcode.com/problems/binary-tree-preorder-traversal/
 
 ## Description
 

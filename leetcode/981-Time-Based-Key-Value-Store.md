@@ -1,7 +1,7 @@
 # 981. Time Based Key-Value Stores
 
 ## Link
-https://leetcode.com/problems/time-based-key-value-store/description/
+https://leetcode.com/problems/time-based-key-value-store/
 
 ## Description
 

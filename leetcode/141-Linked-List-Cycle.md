@@ -1,7 +1,7 @@
 # 141. Linked List Cycle
 
 ## Link
-https://leetcode.com/problems/linked-list-cycle/description/
+https://leetcode.com/problems/linked-list-cycle/
 
 ## Description
 

@@ -1,7 +1,7 @@
 # 203. Remove Linked List Elements
 
 ## Link
-https://leetcode.com/problems/remove-linked-list-elements/description/
+https://leetcode.com/problems/remove-linked-list-elements/
 
 ## Description
 

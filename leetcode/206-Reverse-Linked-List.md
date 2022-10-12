@@ -1,7 +1,7 @@
 # 206. Reverse Linked List
 
 ## Link
-https://leetcode.com/problems/reverse-linked-list/description/
+https://leetcode.com/problems/reverse-linked-list/
 
 ## Description
 
